@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bérince S. R. Hounsouvo – Ph.D. Candidate in Forest Sciences</title>
+  <!-- Meta SEO -->
+  <meta name="description" content="Bérince S. R. Hounsouvo, Ph.D. candidate in Forest Sciences at Université Laval. Specializing in root systems, ecological restoration, and forest biology.">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:title" content="Bérince S. R. Hounsouvo – Forest Sciences Researcher">
+  <meta property="og:description" content="Ph.D. candidate at Université Laval, focused on ecological restoration and sustainable forest research.">
+  <meta property="og:image" content="https://berince95.github.io/hounsouvo/portrait.jpg">
+  <meta property="og:url" content="https://berince95.github.io/hounsouvo/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bérince S. R. Hounsouvo – Forest Sciences Researcher">
+  <meta name="twitter:description" content="Ph.D. candidate at Université Laval, focused on ecological restoration and forest research.">
+  <meta name="twitter:image" content="https://berince95.github.io/hounsouvo/portrait.jpg">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lora', serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    /* === En-tête === */
+    header {
+      background-color: #375538;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; /* Aligner l'image et le texte horizontalement */
+      gap: 30px; /* Ajouter de l'espace entre l'image et le texte */
+    }
+
+    .profile-pic {
+      max-width: 140px;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 0px solid #fff;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    /* === Navigation === */
+    nav {
+      background-color: #fff;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #375538;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    nav ul li a:hover {
+      color: #faf60f;
+    }
+
+    /* === Contenu Principal === */
+    main {
+      background-color: #fff;
+      padding: 30px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 8px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #375538;
+      margin-bottom: 15px;
+      text-align: center;
+      border-bottom: 2px solid #375538;
+      padding-bottom: 10px;
+    }
+
+    section {
+      display: none;
+    }
+
+    section.active {
+      display: block;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: disc inside;
+      margin-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* === Bouton CV === */
+    .cv-button {
+      display: inline-block;
+      background-color: #375538;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .cv-button:hover {
+      background-color: #faf60f;
+      color: #375538;
+    }
+
+    /* === Footer === */
+    footer {
+      background-color: #375538;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #faf60f;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+        /* Responsive Design pour mobiles */
+    @media (max-width: 658px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+      }
+
+      .header-text {
+        text-align: center;
+      }
+
+      .profile-pic {
+        max-width: 100%;
+        height: auto;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      main {
+        width: 95%;
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="portrait.jpg" alt="Portrait of Bérince Hounsouvo" class="profile-pic">
+    <div class="header-text">
+      <h1>Bérince S. R. Hounsouvo</h1>
+      <p>Ph.D. Candidate in Forest Sciences – Université Laval</p>
+      <p>Quebec, Canada | <a href="mailto:bshou@ulaval.ca">bshou@ulaval.ca</a> | 
+        <a href="https://www.linkedin.com/in/bérince-hounsouvo" target="_blank">LinkedIn</a></p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showSection('about')">About</a></li>
+      <li><a href="#" onclick="showSection('publications')">Publications</a></li>
+      <li><a href="#" onclick="showSection('cv')">CV</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      <li><a href="#" onclick="showSection('photos')">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="active"style=" text-align: justify;">
+      <h2>About Me</h2>
+
+      <p> 
+        <a href="https://www.cef-cfr.ca/pmwiki.php?n=Membres.BerinceSetchegnonRomeoHounsouvo" target="_blank" style="text-decoration: none; color: rgb(37, 37, 141);  font-style: italic;"> Bérince Hounsouvo </a>  
+        is a Ph.D. candidate in Forest Sciences at Université Laval, under the supervision of
+        <a href="https://www.ulaval.ca/la-recherche/repertoire-corps-professoral/damase-p-khasa" target="_blank" style="text-decoration: none; color: rgb(37, 37, 141);  font-style: italic;"> Professor Damase P. Khasa</a> 
+        and  
+        <a href="https://www.ulaval.ca/la-recherche/repertoire-corps-professoral/antoine-karam" target="_blank" style="text-decoration: none; color: rgb(37, 37, 141);  font-style: italic;"> Professor Antoine Karam</a>.
+        His current research focuses on the selection of boreal tree species with a lateral root system for the revegetation of mining sites that generate acid mine drainage (AMD). In this context, he is studying the influence of genetic and environmental factors on the root systems of black spruce and tamarack to guide the sustainable restoration practices for AMD-affected mining sites in Quebec. 
+      </p>
+
+      <p>
+        Holder of a master’s degree in forestry from the University of Parakou (Benin), Bérince previously served as a project manager for ecological restoration with the 
+        <a href="https://eplan-ngo.org/berince/" target="_blank" style="text-decoration: none; color: rgb(37, 37, 141);  font-style: italic;"> Environment Plan ONG </a> 
+        in Benin (2021-2023). He has over seven years experience in forest biology and ecological restoration projects.
+        Moreover, Bérince is a young leader who is committed to the development of his community. Since September 2024, he has been an Ambassador for One Young World, where he connects with other young leaders from around the world, exchanges solutions, and learns from shared experiences. He is also the President of the Environment Plan NGO, a role through which he directly leads concrete actions in biodiversity conservation and the restoration of natural habitats.
+      </p>
+
+      <p>
+        <h3>Research Interests</h3>
+          <li>Forest ecophysiology</li>
+          <li>Mycorrhizal symbioses</li>
+          <li>Soil physics</li>
+          <li>Restoration ecology</li>
+          <li>Ecological modeling</li>
+        </ul>
+      </p>
+    </section>
+
+    <section id="publications" style=" text-align: justify;">
+      <h2>Publications</h2>
+        <h3>Journal Articles</h3>
+        <ul>
+          <li><strong>Hounsouvo, Bérince S. R.</strong>, Khasa Damase P., Karam Antoine and Lamhamedi Mohammed S. Tree root system on covers with capillary barrier effects preventing Acid mine drainage: a systematic review (in preparation).</li>
+          <li><strong>Hounsouvo, Bérince S. R.</strong>, Orou Sourou Zouliatou, Ayena Jacques I. K., and Dramani Ramdan. Socio-Agronomic Determinants of Farmland Access in Vegetable Production Systems in Northern Benin: Evidence from Bassila. Agriculture and Human Values (submitted).</em>.</li>
+          <li><strong>Hounsouvo, Bérince S. R.</strong>, Houehanou, TD, Gouwakinnou, GN, Hadonou, CJ, and Ounsavi, CAIN. (2022). Comparative Effect of Ectomycorrhizal Inoculation, Mineral and Organic Amendments and their Interactions on Juvenile Growth of <em>Afzelia africana</em> in the Nursery. Journal of Tropical Plant Physiology, 14(1), 1‑12. https://doi.org/10.56999/jtpp.2022.14.1.18.</li>
+          <li>Habakaramo M. P., Tchan K. I., Hegbe A. D. M. T., Abohoumbo G.,<strong>Hounsouvo, Bérince S. R.</strong>,Tchemagnon O., Dramani R., and Yorou N. S. (2022). Sampling techniques for the optimal measurements of macromycetes diversity in the Soudano-Guinean ecozone (West Africa). International Journal of Biodiversity and Conservation, 14(3), 128‑138. https://doi.org/10.5897/IJBC2020.1404.</li>
+        </ul>
+
+        <h3>Scientific Talks</h3>
+        <ul>
+           <li><strong>Variation génétique de la croissance racinaire chez les plants d’épinette noire et de mélèze laricin.</strong> Colloque forestier 2025. L’office des producteurs de plants forestiers du Québec (OPPFQ)Quebec, Canada.</li>
+        </ul>
+    </section>
+
+    <section id="cv" style=" text-align: justify;">
+      <h2>Curriculum Vitae</h2>
+      <p>Click below to download my full CV:</p>
+      <a href="cv_berince_hounsouvo.pdf" download class="cv-button">Download CV</a>
+    </section>
+
+    <section id="contact" style=" text-align: justify;">
+      <h2>Contact</h2>
+      <p>If you have questions or would like to collaborate, contact me at: 
+        <a href="mailto:bshou@ulaval.ca">bshou@ulaval.ca</a>
+      </p>
+    </section>
+
+    <section id="photos" style="text-align: justify;">
+      <h2>Work Photo</h2>
+      <p>Here are some images showing my fieldwork and research projects.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    
+        <figure style="text-align: center;">
+          <a href="photo1.jpg" target="_blank">
+            <img src="photo1.jpg" alt="Fieldwork photo 1" style="width: 240px; border-radius: 8px;">
+          </a>
+          <figcaption>ECM Inouculation</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo2.jpeg" target="_blank">
+            <img src="photo2.jpeg" alt="Fieldwork photo 2" style="width: 270px; border-radius: 8px;">
+          </a>
+          <figcaption>Physiological measurements</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo3.jpeg" target="_blank">
+            <img src="photo3.jpeg" alt="Fieldwork photo 3" style="width: 140px; border-radius: 8px;">
+          </a>
+          <figcaption>Field sampling in Benin</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo4.jpg" target="_blank">
+            <img src="photo4.jpg" alt="Fieldwork photo 4" style="width: 200px; border-radius: 8px;">
+          </a>
+          <figcaption>Soil Sampling</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo5.jpeg" target="_blank">
+            <img src="photo5.jpeg" alt="Fieldwork photo 5" style="width: 250px; border-radius: 8px;">
+          </a>
+          <figcaption>Team in the Field</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo6.jpg" target="_blank">
+            <img src="photo6.jpg" alt="Fieldwork photo 6" style="width: 250px; border-radius: 8px;">
+          </a>
+          <figcaption>My Reseach Team, ULaval</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo7.jpeg" target="_blank">
+            <img src="photo7.jpeg" alt="Fieldwork photo 7" style="width: 250px; border-radius: 8px;">
+          </a>
+          <figcaption>Ecological shooting</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo8.jpg" target="_blank">
+            <img src="photo8.jpg" alt="Fieldwork photo 8" style="width: 250px; border-radius: 8px;">
+          </a>
+          <figcaption>Ecological shooting</figcaption>
+        </figure>
+
+        <figure style="text-align: center;">
+          <a href="photo9.jpeg" target="_blank">
+            <img src="photo9.jpeg" alt="Fieldwork photo 9" style="width: 250px; border-radius: 8px;">
+          </a>
+          <figcaption>Team in the Field</figcaption>
+        </figure>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bérince S. R. Hounsouvo |
+      <a href="https://orcid.org/0000-0002-4033-756X" target="_blank">ORCID</a> |
+      <a href="https://scholar.google.com/citations?user=N90F-98AAAAJ&hl=fr" target="_blank">Google Scholar</a> |
+      <a href="https://www.researchgate.net/profile/Berince-Hounsouvo" target="_blank">ResearchGate</a>
+    </p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll("main section");
+      sections.forEach(section => section.classList.remove("active"));
+      const target = document.getElementById(sectionId);
+      if (target) target.classList.add("active");
+    }
+
+    // Show About on first load
+    document.addEventListener("DOMContentLoaded", () => {
+      showSection("about");
+    });
+  </script>
+</body>
+</html>
