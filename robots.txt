@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://berince95.github.io/hounsouvo/sitemap.xml
